@@ -3,7 +3,7 @@
 <%@ include file="../include/header.jspf" %>
 <style>
 header.masthead {
-	background-image: url(../static/img/introduce/introduce.png);
+	background-image: url(../static/img/journal/journal.png);
 }	
 .intro-table {
 	background-color:#FFFFFF;
