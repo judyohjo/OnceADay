@@ -17,6 +17,11 @@ header.masthead {
       <div class="card-body">       
         
           <div class="form-group">
+            <label>Date</label>
+            <input type="text" class="form-control" name='bDate' value="${contents.bDate}" readonly>
+          </div>
+	      
+	  <div class="form-group">
             <label>Writer</label>
             <input type="text" class="form-control" name='bName' value="${contents.bName}" readonly>
           </div>
@@ -32,9 +37,9 @@ header.masthead {
           </div>
          
           <a class="btn" href="BList.izone"
-		style="background-color: #ff52a0; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">목록</a>&nbsp;&nbsp;
+		style="background-color: #ff52a0; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Content</a>&nbsp;&nbsp;
           <a class="btn" href="BUpdateView.izone?bId=${contents.bId}"
-		style="background-color: orange; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">수정</a>&nbsp;&nbsp;
+		style="background-color: orange; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Edit</a>&nbsp;&nbsp;
           <a class="btn" href="BDelete.izone?bId=${contents.bId}" onclick="return confirm('Do you really want to delete?')"
 		style="background-color: red; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Delete</a>&nbsp;&nbsp;
        
