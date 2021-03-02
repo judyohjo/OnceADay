@@ -13,21 +13,21 @@ header.masthead {
 <div class="row">
   <div class="col-lg-12">
     <div class="card">
-      <div class="card-header text-white" style="background-color: #ff52a0;">${contents.bId}번 게시물 내용</div>
+      <div class="card-header text-white" style="background-color: #ff52a0;">${contents.bId}Content</div>
       <div class="card-body">       
         
           <div class="form-group">
-            <label>작성자</label>
+            <label>Writer</label>
             <input type="text" class="form-control" name='bName' value="${contents.bName}" readonly>
           </div>
           
           <div class="form-group">
-            <label>제목</label>
+            <label>Title</label>
             <input type="text" class="form-control" name='bTitle' value="${contents.bTitle}" readonly>
           </div>
 
           <div class="form-group">
-            <label>내용</label>
+            <label>Content</label>
             <textarea class="form-control" rows="5" name='bContent' readonly>${contents.bContent}</textarea>
           </div>
          
@@ -35,8 +35,8 @@ header.masthead {
 		style="background-color: #ff52a0; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">목록</a>&nbsp;&nbsp;
           <a class="btn" href="BUpdateView.izone?bId=${contents.bId}"
 		style="background-color: orange; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">수정</a>&nbsp;&nbsp;
-          <a class="btn" href="BDelete.izone?bId=${contents.bId}" onclick="return confirm('정말로 삭제하시겠습니까?')"
-		style="background-color: red; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">삭제</a>&nbsp;&nbsp;
+          <a class="btn" href="BDelete.izone?bId=${contents.bId}" onclick="return confirm('Do you really want to delete?')"
+		style="background-color: red; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Delete</a>&nbsp;&nbsp;
        
       </div>
     </div>
