@@ -31,7 +31,7 @@ td > span {
               <div class="portfolio-hover-content">
               </div>
             </div>
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/keb.jpg" alt="">
+            <img class="img-thumbnail img-fluid" src="../static/img/journal/keb.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>권은비</h4>
