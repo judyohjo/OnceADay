@@ -5,7 +5,7 @@
 
 <c:if test="${user_name == null}">
 	<script>
-		alert("로그인이 필요한 서비스입니다.");
+		alert("This requires a login service.");
 		location.href='/izone';
 	</script>
 </c:if>
