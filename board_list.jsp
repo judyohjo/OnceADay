@@ -30,17 +30,17 @@ header.masthead {
 			</div>
 			<div class="col-lg-8">
 				<div class="panel-body">
-				<h2 class="page-header"><span style="color: #ff52a0;">IZONE</span> 자유 게시판
-					<a href="/izone/board/BWriteView.izone" class="btn float-right" style="background-color: #ff52a0; margin-top: 0; height: 40px; color: white; border: 0px solid #f78f24; opacity: 0.8">글쓰기</a>
+				<h2 class="page-header"><span style="color: #ff52a0;">Once A Day</span> 자유 게시판
+					<a href="/onceADay/board/BWriteView.onceADay" class="btn float-right" style="background-color: #ff52a0; margin-top: 0; height: 40px; color: white; border: 0px solid #f78f24; opacity: 0.8">글쓰기</a>
 				</h2>
 					<table class="table table-bordered table-hover">
 						
 						<tr style="background-color: #ff52a0; margin-top: 0; height: 40px; color: white; border: 0px solid #f78f24; opacity: 0.8">
-							<th>#번호</th>
-							<th>작성자</th>
-							<th>제목</th>
-							<th>작성일</th>
-							<th>조회수</th>
+							<th>#Number</th>
+							<th>Writer</th>
+							<th>Title</th>
+							<th>Date</th>
+							<th>Number of visits</th>
 						</tr>
 						
 						<c:forEach var="article" items="${articles.messageList}">
