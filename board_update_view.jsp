@@ -10,15 +10,14 @@ header.masthead {
 <br/><br/>
 <div class="container">
 <%--
-   1. form태그의 action url = "BUpdate.board"
-   2. Service클래스 이름은 BoardUpdateService
-   3. DAO의 수정 메서드이름은 updateArticle
-   4. 수정 완료 후 안내할 UI는 게시글 목록입니다.
+   1. form tag's action url = "BUpdate.board"
+   2. Name for the service class is BoardUpdateService
+   3. DAO's editing method = updateArticle
 --%>
 <div class="row">
   <div class="col-lg-12">
     <div class="card">
-      <div class="card-header text-white" style="background-color: #ff52a0;">${contents.bId}번 게시물 수정</div>
+      <div class="card-header text-white" style="background-color: #ff52a0;">Edit ${contents.bId} content</div>
       <div class="card-body">
         <form role="form" action="/onceADay/board/BUpdate.onceADay" method="post">
 		  
