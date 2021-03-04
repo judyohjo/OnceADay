@@ -13,19 +13,19 @@ header.masthead {
 <div class="row">
   <div class="col-lg-12">
     <div class="card">
-      <div class="card-header text-white" style="background-color: #ff52a0;"> 게시글 등록</div>
+      <div class="card-header text-white" style="background-color: #ff52a0;"> New Diary </div>
       <div class="card-body">
 
-        <form role="form" action="/izone/board/BWrite.izone" method="post">
+        <form role="form" action="/izone/board/BWrite.onceADay" method="post">
         
           <div class="form-group">
-            <label>작성자</label>
+            <label>Writer</label>
             <input type="text" class="form-control" name='#' value="${user_name}(${user_id})" readonly>
           	<input type="hidden" name="bName" value="${user_name}" />
           </div>
           
           <div class="form-group">
-            <label>제목</label>
+            <label>Title</label>
             <input type="text" class="form-control" name='bTitle'>
           </div>
 
