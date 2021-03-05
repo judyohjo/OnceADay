@@ -5,7 +5,7 @@
 	String userSessionId = (String)session.getAttribute("user_id");
 %>
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 
   <meta charset="utf-8">
@@ -13,32 +13,32 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>아이즈원츄~CHU~♡</title>
+  <title>Once A Day</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="/izone/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/onceADay/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="/izone/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/onceADay/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this template -->
-  <link href="/izone/static/css/agency.min.css" rel="stylesheet">
+  <link href="/onceADay/static/css/agency.min.css" rel="stylesheet">
   
   <!-- Bootstrap core JavaScript -->
-  <script src="/izone/static/vendor/jquery/jquery.min.js"></script>
-  <script src="/izone/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/onceADay/static/vendor/jquery/jquery.min.js"></script>
+  <script src="/onceADay/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	
 	
   <!-- Plugin JavaScript -->
-  <script src="/izone/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="/onceADay/static/vendor/jquery-easing/jquery.easing.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
 
   <!-- Contact form JavaScript -->
-  <script src="/izone/static/js/jqBootstrapValidation.js"></script>
+  <script src="/onceADay/static/js/jqBootstrapValidation.js"></script>
   
 
 <style>
@@ -70,21 +70,21 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="/izone">
-      	<img class="img-fluid" src="/izone/static/img/mark.png" alt="" style="width:130px; height:50px;" />
+      <a class="navbar-brand" href="/onceADay">
+      	<img class="img-fluid" src="/onceADay/static/img/mark.png" alt="" style="width:130px; height:50px;" />
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-        메뉴
+        Menu
         <i class="fas fa-bars"></i>
       </button>
       
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/izone">HOME</a>
+            <a class="nav-link js-scroll-trigger" href="/onceADay">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/izone/introduce/introduce.jsp">INTRODUCE</a>
+            <a class="nav-link js-scroll-trigger" href="/onceADay/introduce/introduce.jsp">INTRODUCE</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link js-scroll-trigger dropdown-toggle" data-toggle="dropdown">MUSIC</a>
@@ -93,7 +93,7 @@
               <div class="dropdown dropright">            
 		        <a class="dropdown-item dropdown-toggle music-tap" data-toggle="dropdown" style="color:white;">COLOR*IZ</a>
 			    <div class="dropdown-menu music-menu"> 
-			      <a class="dropdown-item music-tap" data-toggle="modal" href="#lavieenrose">La Vie En Rose MV</a>
+			      <a class="dropdown-item music-tap" data-toggle="modal" href="#lavieenrose">La Vie En Rose</a>
 			      <a class="dropdown-item music-tap" data-toggle="modal" href="#lavieenrose-2">La Vie En Rose 교차편집</a>
 			    </div>
 		      </div>
@@ -109,7 +109,7 @@
 		    </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/izone/board/BList.izone">BOARD</a>
+            <a class="nav-link js-scroll-trigger" href="/onceADay/board/BList.onceADay">BOARD</a>
           </li>
           <% if(userSessionName == null) { %>
           <li class="nav-item">
@@ -117,10 +117,10 @@
           </li>
           <% } else { %>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/izone/users/mypage_change_pw.jsp">MYPAGE</a>
+            <a class="nav-link js-scroll-trigger" href="/onceADay/users/mypage_change_pw.jsp">MYPAGE</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/izone/users/logout.jsp" onclick="return confirm('진짜로 로그아웃 하는거에요?')">LOGOUT</a>
+            <a class="nav-link js-scroll-trigger" href="/onceADay/users/logout.jsp" onclick="return confirm('Are you sure you want to log out?')">LOGOUT</a>
           </li>
           <% } %>
         </ul>
@@ -133,9 +133,9 @@
     <div class="container">
       <div class="intro-text">        
     <% if(userSessionName == null) { %>
-        <button class="btn btn-chu btn-xl text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#log-in">CHU~♥</button>
+        <button class="btn btn-chu btn-xl text-uppercase js-scroll-trigger" data-toggle="modal" data-target="#log-in">Once A Day</button>
     <% } else { %>
-    	 <a class="btn btn-chu btn-xl text-uppercase js-scroll-trigger" href="/izone/users/mypage_change_pw.jsp"><%=userSessionName %>님 안녕~♥</a>
+    	 <a class="btn btn-chu btn-xl text-uppercase js-scroll-trigger" href="/onceADay/users/mypage_change_pw.jsp">Hello <%=userSessionName %></a>
     <% } %>
       </div>
     </div>
