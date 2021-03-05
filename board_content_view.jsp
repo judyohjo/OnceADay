@@ -38,9 +38,9 @@ header.masthead {
          
           <a class="btn" href="BList.izone"
 		style="background-color: #ff52a0; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Content</a>&nbsp;&nbsp;
-          <a class="btn" href="BUpdateView.izone?bId=${contents.bId}"
+          <a class="btn" href="BUpdateView.onceADay?bId=${contents.bId}"
 		style="background-color: orange; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Edit</a>&nbsp;&nbsp;
-          <a class="btn" href="BDelete.izone?bId=${contents.bId}" onclick="return confirm('Do you really want to delete?')"
+          <a class="btn" href="BDelete.onceADay?bId=${contents.bId}" onclick="return confirm('Do you really want to delete?')"
 		style="background-color: red; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Delete</a>&nbsp;&nbsp;
        
       </div>
