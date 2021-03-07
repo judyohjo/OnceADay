@@ -11,18 +11,12 @@
 	int rn = dao.userCheck(id, pw);
 	String str = "";
 
-	//3. DB처리 결과에 따른 알림창 설정.
-	// a - 로그인 성공시 세션에 user_id, user_name이란 이름으로
-	//    로그인한 회원의 아이디와 이름을 저장 후 홈으로 안내.
-	// b - 존재하지 않는 회원일 경우 알림창으로 "존재하지 않는 ID입니다"
-	//    출력 후 뒤로가기 실행 (history.back())
-	// c - 비밀번호가 틀렸을 경우 알림창으로 "비밀번호가 틀렸습니다" 출력 후
-	//    뒤로가기 실행.
+
 	if(rn == MemberDAO.LOGIN_SUCCESS) {
 		MemberVO user = dao.getMemberInfo(id);
 		session.setAttribute("user_id", id);		
 		session.setAttribute("user_name", user.getUserName());
-		//response.sendRedirect("/izone");
+		//response.sendRedirect("/onceADay");
 		str = "LOGIN_OK";
 	} else if(rn == MemberDAO.LOGIN_FAIL_PW) {
 		str = "NOT_PW";
