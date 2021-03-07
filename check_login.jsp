@@ -1,13 +1,12 @@
-<%@page import="kr.co.koo.izone.member.model.MemberVO"%>
-<%@page import="kr.co.koo.izone.member.model.MemberDAO"%>
+<%@page import="kr.co.koo.onceADay.member.model.MemberVO"%>
+<%@page import="kr.co.koo.onceADay.member.model.MemberDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-	//1. 요청 파라미터 처리(입력된 id, pw)
 	String id = request.getParameter("user_id");
 	String pw = request.getParameter("user_pw");
 	
-	//2. 모델을 찾아 DB연동 처리.
+	
 	MemberDAO dao = MemberDAO.getInstance();
 	int rn = dao.userCheck(id, pw);
 	String str = "";
