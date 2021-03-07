@@ -5,7 +5,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; By Soon-Gu HONG 2019</span>
+          <span class="copyright">Copyright &copy; By Judy Oh 2020</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
@@ -20,7 +20,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/soongu_hong/" style="background-color: #ff52a0;">
+              <a href="https://www.instagram.com/ohhjudyoh/" style="background-color: #ff52a0;">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
@@ -29,7 +29,7 @@
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="#">아이즈원 공식카페</a>
+              <a href="#">Once A Day</a>
             </li>
             
           </ul>
