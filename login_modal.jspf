@@ -17,12 +17,12 @@
 			<!-- Modal body -->
 			<div class="modal-body">
 
-				<form action="/izone/users/check_login.jsp" name="izone-sign-in" method="post" id="signInForm"
+				<form action="/onceADay/users/check_login.jsp" name="onceADay-sign-in" method="post" id="signInForm"
 					style="margin-bottom: 0;">
 					<table style="cellpadding: 0; cellspacing: 0; margin: 0 auto; width: 100%">
 						<tr>
 							<td style="text-align: left">
-								<p><strong>아이디를 입력해주세요.</strong>&nbsp;&nbsp;&nbsp;<span id="idCheck"></span></p>
+								<p><strong>Your Id</strong>&nbsp;&nbsp;&nbsp;<span id="idCheck"></span></p>
 							</td>
 						</tr>
 						<tr>
