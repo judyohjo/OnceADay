@@ -30,11 +30,11 @@
 								class="form-control tooltipstered" maxlength="10"
 								required="required" aria-required="true"
 								style="margin-bottom: 25px; width: 100%; height: 40px; border: 1px solid #d9d9de"
-								placeholder="최대 10자"></td>
+								placeholder="Maximum 10 characters"></td>
 						</tr>
 						<tr>
 							<td style="text-align: left">
-								<p><strong>비밀번호를 입력해주세요.</strong>&nbsp;&nbsp;&nbsp;<span id="pwCheck"></span></p>
+								<p><strong>Type in your password.</strong>&nbsp;&nbsp;&nbsp;<span id="pwCheck"></span></p>
 							</td>
 						</tr>
 						<tr>
@@ -42,11 +42,11 @@
 								name="userPw" class="form-control tooltipstered" 
 								maxlength="20" required="required" aria-required="true"
 								style="ime-mode: inactive; margin-bottom: 25px; height: 40px; border: 1px solid #d9d9de"
-								placeholder="최소 8자"></td>
+								placeholder="Minimum 8 letters"></td>
 						</tr>
 						<tr>
 							<td style="padding-top: 10px; text-align: center">
-								<p><strong>로그인하셔서 WIZONE이 되어보세요~~!</strong></p>
+								<p><strong>Sign up/Login to use the fantastic online diary!</strong></p>
 							</td>
 						</tr>
 						<tr>
