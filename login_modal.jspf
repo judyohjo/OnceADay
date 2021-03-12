@@ -333,34 +333,32 @@ $(function(){
 			chk1 = false;
 		}		
 		
-		//아이디 유효성검사
 		else if(!getIdCheck.test($("#signInId").val())){
 			$('#signInId').css("background-color", "pink");
 			$('#idCheck').html('<b style="font-size:16px;color:red;">[영문자,숫자 4-14자로 입력하라구~]</b>');	  
 			chk1 = false;
 		} else {
 			$('#signInId').css("background-color", "aqua");
-			$('#idCheck').html('<b style="font-size:16px;color:green;">[참 잘했어요~♡]</b>');
+			$('#idCheck').html('<b style="font-size:16px;color:green;">[Great!]</b>');
 			chk1 = true;
 		}
 	});
+
 	
-	//패스워드 입력값 검증.
 	$('#signInPw').on('keyup', function() {
-		//비밀번호 공백 확인
 		if($("#signInPw").val() == ""){
 		    $('#signInPw').css("background-color", "pink");
-			$('#pwCheck').html('<b style="font-size:16px;color:red;">[패스워드는 필수정보에요!]</b>');
+			$('#pwCheck').html('<b style="font-size:16px;color:red;">[You must type in your password!]</b>');
 			chk2 = false;
 		}		         
 		//비밀번호 유효성검사
 		else if(!getPwCheck.test($("#signInPw").val()) || $("#signInPw").val().length < 8){
 		    $('#signInPw').css("background-color", "pink");
-			$('#pwCheck').html('<b style="font-size:16px;color:red;">[특수문자 포함 8자이상으루다가~]</b>');
+			$('#pwCheck').html('<b style="font-size:16px;color:red;">[Maximum 8 characters]</b>');
 			chk2 = false;
 		} else {
 			$('#signInPw').css("background-color", "aqua");
-			$('#pwCheck').html('<b style="font-size:16px;color:green;">[참 잘했어요~♡]</b>');
+			$('#pwCheck').html('<b style="font-size:16px;color:green;">[Great!]</b>');
 			chk2 = true;
 		}
 		
@@ -370,7 +368,7 @@ $(function(){
 		if(chk1 && chk2) {							
 			$.ajax({
 				type: "POST",
-				url: "/izone/users/check_login.jsp",
+				url: "/onceADay/users/check_login.jsp",
 				data: {
 					"user_id": $('#signInId').val(),
 					"user_pw": $('#signInPw').val()
@@ -379,7 +377,7 @@ $(function(){
 					
 					if($.trim(data) == "NOT_ID") {
 						$('#signInId').css("background-color", "pink");
-						$('#idCheck').html('<b style="font-size:16px;color:red;">[회원가입 먼저~~]</b>');
+						$('#idCheck').html('<b style="font-size:16px;color:red;">[Sign up!]</b>');
 						$('#signInPw').val("");
 						$('#signInId').focus();
 						chk2 = false;
@@ -387,10 +385,10 @@ $(function(){
 						$('#signInPw').css("background-color", "pink");
 						$('#signInPw').val("");
 						$('#signInPw').focus();
-						$('#pwCheck').html('<b style="font-size:16px;color:red;">[비밀번호가 틀렸습니다ㅠㅠ]</b>');
+						$('#pwCheck').html('<b style="font-size:16px;color:red;">[Your password is incorrect!]</b>');
 						chk2 = false;
 					} else if($.trim(data) == "LOGIN_OK") {
-						location.href="/izone";
+						location.href="/onceADaye";
 					}
 				}
 			});			
