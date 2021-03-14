@@ -260,49 +260,48 @@ $(function(){
 			chk3 = false;
 		} else {
 			$('#password_check').css("background-color", "aqua");
-			$('#pwChk2').html('<b style="font-size:16px;color:green;">[참 잘했어요~♡]</b>');
+			$('#pwChk2').html('<b style="font-size:16px;color:green;">[Great!]</b>');
 			chk3 = true;
 		}
 		
 	});
 	
-	//이름 입력값 검증.
 	$('#user_name').on('keyup', function() {
-		//이름값 공백 확인
+		
 		if($("#user_name").val() == ""){
 		    $('#user_name').css("background-color", "pink");
-			$('#nameChk').html('<b style="font-size:16px;color:red;">[이름은 필수정보에요!]</b>');
+			$('#nameChk').html('<b style="font-size:16px;color:red;">[You must put your name!]</b>');
 			chk4 = false;
 		}		         
-		//이름값 유효성검사
+		
 		else if(!getName.test($("#user_name").val())){
 		    $('#user_name').css("background-color", "pink");
-			$('#nameChk').html('<b style="font-size:16px;color:red;">[이름은 한글로 쓰세용~]</b>');
+			$('#nameChk').html('<b style="font-size:16px;color:red;">[Name in English!]</b>');
 			chk4 = false;
 		} else {
 			$('#user_name').css("background-color", "aqua");
-			$('#nameChk').html('<b style="font-size:16px;color:green;">[참 잘했어요~♡]</b>');
+			$('#nameChk').html('<b style="font-size:16px;color:green;">[Great!]</b>');
 			chk4 = true;
 		}
 		
 	});
 	
-	//이메일 입력값 검증.
+	
 	$('#user_email').on('keyup', function() {
-		//이메일값 공백 확인
+		
 		if($("#user_email").val() == ""){
 		    $('#user_email').css("background-color", "pink");
-			$('#emailChk').html('<b style="font-size:16px;color:red;">[이메일은 필수정보에요!]</b>');
+			$('#emailChk').html('<b style="font-size:16px;color:red;">[You must put an email!]</b>');
 			chk5 = false;
 		}		         
-		//이메일값 유효성검사
+		
 		else if(!getMail.test($("#user_email").val())){
 		    $('#user_email').css("background-color", "pink");
-			$('#emailChk').html('<b style="font-size:16px;color:red;">[이메일 형식 몰라?]</b>');
+			$('#emailChk').html('<b style="font-size:16px;color:red;">[In email format!]</b>');
 			chk5 = false;
 		} else {
 			$('#user_email').css("background-color", "aqua");
-			$('#emailChk').html('<b style="font-size:16px;color:green;">[참 잘했어요~♡]</b>');
+			$('#emailChk').html('<b style="font-size:16px;color:green;">[Great!]</b>');
 			chk5 = true;
 		}
 		
@@ -310,24 +309,23 @@ $(function(){
 	
 	$('#signup-btn').click(function(e) {
 		if(chk1 && chk2 && chk3 && chk4 && chk5) {
-			var answer = confirm('회원가입을 완료하시겠습니까?');
+			var answer = confirm('Do you want to sign up?');
 			if(answer) {
 				e.preventDefault();
 				$('#signUpForm').submit();
 			} 
 		} else {
-			alert('입력정보를 다시 확인하세요.');			
+			alert('Please check that your information is correct');			
 		}
 	});
 	
 	///////////////////////////////////////////////////////////////////////////////////////////
 	
-	//로그인 검증~~
-	//ID 입력값 검증.
+	
 	$('#signInId').on('keyup', function() {
 		if($("#signInId").val() == ""){
 			$('#signInId').css("background-color", "pink");
-			$('#idCheck').html('<b style="font-size:16px;color:red;">[아이디는 필수 정보에요!]</b>');
+			$('#idCheck').html('<b style="font-size:16px;color:red;">[You must put an ID!]</b>');
 			chk1 = false;
 		}		
 		
@@ -349,7 +347,7 @@ $(function(){
 			$('#pwCheck').html('<b style="font-size:16px;color:red;">[You must type in your password!]</b>');
 			chk2 = false;
 		}		         
-		//비밀번호 유효성검사
+		
 		else if(!getPwCheck.test($("#signInPw").val()) || $("#signInPw").val().length < 8){
 		    $('#signInPw').css("background-color", "pink");
 			$('#pwCheck').html('<b style="font-size:16px;color:red;">[Maximum 8 characters]</b>');
@@ -391,7 +389,7 @@ $(function(){
 				}
 			});			
 		} else {
-			alert('입력정보를 다시 확인하세요.');			
+			alert('Please check that your information is correct');			
 		}
 	});
 	
