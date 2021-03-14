@@ -162,7 +162,7 @@
 
 						<tr>
 							<td style="padding-top: 10px; text-align: center">
-								<p><strong>회원가입하셔서 WIZONE이 되어보세요~~!</strong></p>
+								<p><strong>Sign up!</strong></p>
 							</td>
 						</tr>
 						<tr>
@@ -184,30 +184,29 @@
 $(function(){
 	var getIdCheck= RegExp(/^[a-zA-Z0-9]{4,14}$/);
 	var getPwCheck= RegExp(/([a-zA-Z0-9].*[!,@,#,$,%,^,&,*,?,_,~])|([!,@,#,$,%,^,&,*,?,_,~].*[a-zA-Z0-9])/);
-	var getName= RegExp(/^[가-힣]+$/);
+	var getName= RegExp(/^[A-Z]+$/);
 	var getMail = RegExp(/^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/);
 	var chk1 = false, chk2 = false, chk3 = false, chk4 = false, chk5 = false;
 	
-	//회원가입 검증~~
-	//ID 입력값 검증.
+	
 	$('#user_id').on('keyup', function() {
 		if($("#user_id").val() == ""){
 			$('#user_id').css("background-color", "pink");
-			$('#idChk').html('<b style="font-size:16px;color:red;">[아이디는 필수 정보에요!]</b>');
+			$('#idChk').html('<b style="font-size:16px;color:red;">[You must put an ID!]</b>');
 			chk1 = false;
 		}
 		
-		//아이디 유효성검사
+		
 		else if(!getIdCheck.test($("#user_id").val())){
 			$('#user_id').css("background-color", "pink");
-			$('#idChk').html('<b style="font-size:16px;color:red;">[영문자,숫자 4-14자로 입력하라구~]</b>');	  
+			$('#idChk').html('<b style="font-size:16px;color:red;">[Minimum of 4 characters to maximum of 14 characters!]</b>');	  
 			chk1 = false;
 		} 
-		//ID 중복확인 비동기 처리
+		
 		else {
 			$.ajax({
 				type: "POST",
-				url: "/izone/users/confirm_id.jsp",
+				url: "/onceADay/users/confirm_id.jsp",
 				data: {
 					"user_id": $('#user_id').val()
 				},
@@ -236,7 +235,7 @@ $(function(){
 		
 		else if(!getPwCheck.test($("#password").val()) || $("#password").val().length < 8){
 		    $('#password').css("background-color", "pink");
-			$('#pwChk').html('<b style="font-size:16px;color:red;">[특수문자 포함 8자이상으루다가~]</b>');
+			$('#pwChk').html('<b style="font-size:16px;color:red;">[Minimum of 8 characters of special characters]</b>');
 			chk2 = false;
 		} else {
 			$('#password').css("background-color", "aqua");
@@ -250,13 +249,13 @@ $(function(){
 		
 		if($("#password_check").val() == ""){
 		    $('#password_check').css("background-color", "pink");
-			$('#pwChk2').html('<b style="font-size:16px;color:red;">[패스워드확인은 필수정보에요!]</b>');
+			$('#pwChk2').html('<b style="font-size:16px;color:red;">[You must check your password!]</b>');
 			chk3 = false;
 		}		         
-		//비밀번호 확인란 유효성검사
+		
 		else if($("#password").val() != $("#password_check").val()){
 		    $('#password_check').css("background-color", "pink");
-			$('#pwChk2').html('<b style="font-size:16px;color:red;">[위에랑 똑같이 제대로 써!!]</b>');
+			$('#pwChk2').html('<b style="font-size:16px;color:red;">[Your password doesn't match]</b>');
 			chk3 = false;
 		} else {
 			$('#password_check').css("background-color", "aqua");
@@ -331,7 +330,7 @@ $(function(){
 		
 		else if(!getIdCheck.test($("#signInId").val())){
 			$('#signInId').css("background-color", "pink");
-			$('#idCheck').html('<b style="font-size:16px;color:red;">[영문자,숫자 4-14자로 입력하라구~]</b>');	  
+			$('#idCheck').html('<b style="font-size:16px;color:red;">[Minimum of 4 characters to maximum of 14 characters]</b>');	  
 			chk1 = false;
 		} else {
 			$('#signInId').css("background-color", "aqua");
