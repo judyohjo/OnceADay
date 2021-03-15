@@ -19,9 +19,9 @@ header.masthead {
 <div class="col-md-6">
 
 <ul class="nav nav-tabs nav-justified">
-   <li class="nav-item" ><a class="nav-link active" href="/onceADay/users/mypage_change_pw.jsp" style="font-size: 20px;"><strong>Change password</strong></a></li>
-   <li class="nav-item"><a class="nav-link" href="/onceADay/users/mypage_user_update.jsp" style="font-size: 20px;"><strong>Change account information</strong></a></li>
-   <li class="nav-item"><a class="nav-link" href="/onceADay/users/mypage_delete_check.jsp" style="font-size: 20px;"><strong>Deactivate account</strong></a></li>
+   <li class="nav-item" ><a class="nav-link active" href="/onceADay/users/mypage_change_pw.jsp" style="font-size: 20px;"><strong>Change Password</strong></a></li>
+   <li class="nav-item"><a class="nav-link" href="/onceADay/users/mypage_user_update.jsp" style="font-size: 20px;"><strong>Edit Account Information</strong></a></li>
+   <li class="nav-item"><a class="nav-link" href="/onceADay/users/mypage_delete_check.jsp" style="font-size: 20px;"><strong>Deactivate Account</strong></a></li>
    
 </ul>
 <br/><br/>
