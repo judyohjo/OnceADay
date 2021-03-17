@@ -27,14 +27,14 @@ header.masthead {
 <div class="col-md-6">
 
 <ul class="nav nav-tabs nav-justified">
-   <li class="nav-item" ><a class="nav-link" href="/onceADay/users/mypage_change_pw.jsp" style="font-size: 20px;"><strong>비밀번호 변경</strong></a></li>
-   <li class="nav-item"><a class="nav-link" href="/onceADay/users/mypage_user_update.jsp" style="font-size: 20px;"><strong>회원정보 수정</strong></a></li>
-   <li class="nav-item"><a class="nav-link active" href="/onceADay/users/mypage_delete_check.jsp" style="font-size: 20px;"><strong>회원 탈퇴하기</strong></a></li>
+   <li class="nav-item" ><a class="nav-link" href="/onceADay/users/mypage_change_pw.jsp" style="font-size: 20px;"><strong>Change Password</strong></a></li>
+   <li class="nav-item"><a class="nav-link" href="/onceADay/users/mypage_user_update.jsp" style="font-size: 20px;"><strong>Edit Account Information</strong></a></li>
+   <li class="nav-item"><a class="nav-link active" href="/onceADay/users/mypage_delete_check.jsp" style="font-size: 20px;"><strong>Deactivate Account</strong></a></li>
    
 </ul>
 <br/><br/>
 
-<h4 style="color: #ff52a0;">회원 탈퇴 페이지</h4><hr/><br/>
+<h4 style="color: #ff52a0;">Deactivate Account Page</h4><hr/><br/>
 
 <div align="center">
 
