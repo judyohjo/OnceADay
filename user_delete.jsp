@@ -40,16 +40,16 @@ header.masthead {
 
 	
 	<% if(check == MemberDAO.LOGIN_SUCCESS) { %>
-		<h4><%= name %>(<%= id %>)님 정말로 회원정보를 삭제하시겠습니까?</h4>
+		<h4><%= name %>(<%= id %>)! Do you wish to delete your account?</h4>
 		
-		<a class="btn" href="/izone/users/user_delete_ok.jsp"
-		style="background-color: #ff52a0; margin-top: 0; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">예</a>&nbsp;&nbsp;
+		<a class="btn" href="/onceADay/users/user_delete_ok.jsp"
+		style="background-color: #ff52a0; margin-top: 0; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Yes</a>&nbsp;&nbsp;
 		<a class="btn btn-danger" href="/onceADay/users/mypage_delete_check.jsp"
 		style="margin-top: 0; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">No</a>
 	
 	<% } else { %>
 		<script>
-			alert("비밀번호를 다시 확인해주세요.")
+			alert("Type your password again.")
 			history.back()
 		</script>
 	<% } %>
