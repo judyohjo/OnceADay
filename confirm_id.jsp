@@ -1,4 +1,4 @@
-<%@page import="kr.co.koo.onceADay.member.model.MemberDAO"%>
+<%@page import="en.co.koo.onceADay.member.model.MemberDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
