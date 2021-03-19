@@ -12,14 +12,14 @@
 		session.invalidate();
 %>
 		<script>
-			alert("회원 탈퇴가 정상처리되었습니다.");
+			alert("Your account has been deactivated.");
 			location.href='/onceADay';
 		</script>
 <%
 	}else {
 %>
 		<script>
-			alert("회원 탈퇴에 실패했습니다.");
+			alert("Your account failed to deactivate.");
 			location.href='/onceADay/users/mypage_delete_check.jsp';
 		</script>
 <%
