@@ -1,4 +1,4 @@
-<%@page import="kr.co.koo.izone.member.model.MemberDAO"%>
+<%@page import="kr.co.koo.onceADay.member.model.MemberDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
@@ -13,14 +13,14 @@
 %>
 		<script>
 			alert("회원 탈퇴가 정상처리되었습니다.");
-			location.href='/izone';
+			location.href='/onceADay';
 		</script>
 <%
 	}else {
 %>
 		<script>
 			alert("회원 탈퇴에 실패했습니다.");
-			location.href='/izone/users/mypage_delete_check.jsp';
+			location.href='/onceADay/users/mypage_delete_check.jsp';
 		</script>
 <%
 	}
