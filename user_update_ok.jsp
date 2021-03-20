@@ -1,5 +1,5 @@
-<%@page import="kr.co.koo.izone.member.model.MemberDAO"%>
-<%@page import="kr.co.koo.izone.member.model.MemberVO"%>
+<%@page import="en.co.koo.onceADay.member.model.MemberDAO"%>
+<%@page import="en.co.koo.onceADay.member.model.MemberVO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
