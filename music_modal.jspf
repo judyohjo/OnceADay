@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!-- Modal La Vie en Rose -->
+
   <div class="modal fade" id="lavieenrose">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
