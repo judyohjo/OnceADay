@@ -23,14 +23,14 @@
 		session.setAttribute("user_name", member.getUserName());
 %>
 		<script>
-			alert("회원정보가 정상적으로 수정되었습니다.");
+			alert("Your Account has been updated.");
 			location.href="/onceADay";
 		</script>
 <%
 	}else {
 %>
 		<script>
-			alert("회원정보 수정에 실패했습니다.");
+			alert("Your Account has failed to update.");
 			location.href="/onceADay";
 		</script>
 <%
