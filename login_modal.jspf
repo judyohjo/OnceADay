@@ -131,7 +131,7 @@
 								name="pw_check" class="form-control tooltipstered" 
 								maxlength="20" required="required" aria-required="true"
 								style="ime-mode: inactive; margin-bottom: 25px; height: 40px; border: 1px solid #d9d9de"
-								placeholder="Your password should be matched."></td>
+								placeholder="Your password should match."></td>
 						</tr>
 
 						<tr>
