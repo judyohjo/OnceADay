@@ -31,7 +31,7 @@ header.masthead {
 			<div class="col-lg-8">
 				<div class="panel-body">
 				<h2 class="page-header"><span style="color: #ff52a0;">Once A Day</span> Free Board
-					<a href="/onceADay/board/BWriteView.onceADay" class="btn float-right" style="background-color: #ff52a0; margin-top: 0; height: 40px; color: white; border: 0px solid #f78f24; opacity: 0.8">글쓰기</a>
+					<a href="/onceADay/board/BWriteView.onceADay" class="btn float-right" style="background-color: #ff52a0; margin-top: 0; height: 40px; color: white; border: 0px solid #f78f24; opacity: 0.8">Start writing</a>
 				</h2>
 					<table class="table table-bordered table-hover">
 						
