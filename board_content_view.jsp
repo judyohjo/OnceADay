@@ -36,7 +36,7 @@ header.masthead {
             <textarea class="form-control" rows="5" name='bContent' readonly>${contents.bContent}</textarea>
           </div>
          
-          <a class="btn" href="BList.izone"
+          <a class="btn" href="BList.onceADay"
 		style="background-color: #ff52a0; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Content</a>&nbsp;&nbsp;
           <a class="btn" href="BUpdateView.onceADay?bId=${contents.bId}"
 		style="background-color: orange; height: 40px; color: white; border: 0px solid #388E3C; opacity: 0.8">Edit</a>&nbsp;&nbsp;
