@@ -64,36 +64,31 @@ td > span {
               <div class="portfolio-hover-content">
               </div>
             </div>          
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/cyn.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Diary 4</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#LeeChaeYeon"> 
+          <a class="portfolio-link" data-toggle="modal" href="#diary5"> 
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>           
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/lcy.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>이채연</h4>
-            <p class="text-muted">리드보컬 메인댄서</p>
+            <h4>Diary 5</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#KimChaeWon">     
+          <a class="portfolio-link" data-toggle="modal" href="#diary6">     
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>      
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/kcw.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>김채원</h4>
-            <p class="text-muted">리드보컬</p>
+            <h4>Diary 6</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
