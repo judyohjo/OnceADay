@@ -92,55 +92,47 @@ td > span {
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#KimMinJu"> 
+          <a class="portfolio-link" data-toggle="modal" href="#diary7"> 
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>           
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/kmj.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>김민주</h4>
-            <p class="text-muted">서브보컬, 서브래퍼</p>
+            <h4>Diary 7</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#nako">   
+          <a class="portfolio-link" data-toggle="modal" href="#diary8">   
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>         
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/nako.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>야부키 나코</h4>
-            <p class="text-muted">서브보컬</p>
+            <h4>Diary 8</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#hitomi">
+          <a class="portfolio-link" data-toggle="modal" href="#diary9">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>            
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/hitomi.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>혼다 히토미</h4>
-            <p class="text-muted">서브보컬</p>
+            <h4>Diary 9</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#ChoYuRi">  
+          <a class="portfolio-link" data-toggle="modal" href="#diary10">  
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>          
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/jyr.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>조유리</h4>
-            <p class="text-muted">메인보컬</p>
+            <h4>Diary 10</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
