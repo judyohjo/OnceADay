@@ -26,46 +26,40 @@ td > span {
 	  
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#KwonEunBi">
+          <a class="portfolio-link" data-toggle="modal" href="#diary1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>
-            <img class="img-thumbnail img-fluid" src="../static/img/journal/keb.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>권은비</h4>
-            <p class="text-muted">리더, 리드보컬, 메인댄서</p>
+            <h4>Diary 1</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#sakura">            
+          <a class="portfolio-link" data-toggle="modal" href="#diary2">            
           <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
            </div>
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/sakura.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>미야와키 사쿠라</h4>
-            <p class="text-muted">서브보컬</p>
+            <h4>Diary 2</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#KangHyeWon">   
+          <a class="portfolio-link" data-toggle="modal" href="#diary3">   
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>         
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/khw.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>강혜원</h4>
-            <p class="text-muted">리드래퍼, 서브보컬</p>
+            <h4>Diary 3</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#ChoiYeNa">  
+          <a class="portfolio-link" data-toggle="modal" href="#diary4">  
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
@@ -665,7 +659,7 @@ td > span {
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
      </div>
     </div>
