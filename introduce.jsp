@@ -67,8 +67,7 @@ td > span {
             <img class="img-thumbnail img-fluid" src="../static/img/introduce/cyn.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>최예나</h4>
-            <p class="text-muted">메인래퍼, 리드보컬, 리드댄서</p>
+            <h4>Diary 4</h4>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
