@@ -133,32 +133,27 @@ td > span {
           </a>
           <div class="portfolio-caption">
             <h4>Diary 10</h4>
-          </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#AhnYuJin">
+          <a class="portfolio-link" data-toggle="modal" href="#diary11">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>            
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/ayj.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>안유진</h4>
-            <p class="text-muted">리드보컬</p>
-          </div>
+            <h4>Diary 11</h4>
+	 </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#JangWonYoung"> 
+          <a class="portfolio-link" data-toggle="modal" href="#diary12"> 
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
               </div>
             </div>           
-            <img class="img-thumbnail img-fluid" src="../static/img/introduce/jwy.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>장원영</h4>
-            <p class="text-muted">센터, 서브보컬</p>
+            <h4>Diary 12</h4>
           </div>
         </div>
       </div>
@@ -166,14 +161,14 @@ td > span {
   </section>
 
 </div> 
-<!-- Modal Kwon Eun-Bi -->
-  <div class="modal fade" id="KwonEunBi">
+<!-- Modal Diary 1 -->
+  <div class="modal fade" id="Diary1">
   <div class="modal-dialog">
     <div class="modal-content">
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">권은비(Kwon Eun-bi)</h4>
+        <h4 class="modal-title">Diary 1</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
