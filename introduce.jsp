@@ -183,10 +183,10 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Title </span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>권은비 (Kwon Eun-Bi, 權恩妃, クォン・ウンビ)</span>
+        				<span>Day 1</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
