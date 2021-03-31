@@ -299,17 +299,10 @@ td > span {
         			<td style="background-color:#23C293; width:100px; text-align:center;">
         				<strong><span style="color: white;">포지션</span></strong>
         			</td>
-        			<td style="text-align:left;">
-        				<span>서브보컬</span>
-        			</td>
+        			
         		</tr>
         		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">데뷔</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2011년 HKT48 공연 &lt;손을 잡으며&gt;</span>
-        			</td>
+        			
         		</tr>
         	</table>
         </div>
@@ -317,7 +310,7 @@ td > span {
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
      </div>
     </div>
