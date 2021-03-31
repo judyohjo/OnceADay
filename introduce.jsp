@@ -264,46 +264,10 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span><ruby><rb>宮脇</rb><rt>みやわき</rt></ruby><ruby>&nbsp;<rb>咲良</rb><rt>さくら</rt></ruby> (미야와키 사쿠라, Miyawaki Sakura)</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>1998년 3월 19일 (21세)</span><br>
-        				<span>일본 가고시마현 가고시마시</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">국적</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>일본</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">소속사</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>AKS</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">포지션</span></strong>
+        				<strong><span style="color: white;">Name</span></strong>
         			</td>
         			
-        		</tr>
-        		<tr class="intro-tr">
-        			
-        		</tr>
+        		
         	</table>
         </div>
       </div>
