@@ -226,9 +226,7 @@ td > span {
         			<td style="background-color:#23C293; width:100px; text-align:center;">
         				<strong><span style="color: white;">데뷔</span></strong>
         			</td>
-        			<td style="text-align:left;">
-        				<span>2014년 예아(Ye-A) 싱글 앨범 1집 <National Treasure></span>
-        			</td>
+        			
         		</tr>
         	</table>
         </div>
@@ -236,7 +234,7 @@ td > span {
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
      </div>
     </div>
