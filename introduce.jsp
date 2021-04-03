@@ -222,8 +222,8 @@ td > span {
     </div>
    </div>
 
-  <!-- Modal Miyawaki Sakura -->
-  <div class="modal fade" id="sakura">
+  <!-- Modal Diary 2 -->
+  <div class="modal fade" id="diary2">
   <div class="modal-dialog">
     <div class="modal-content">
 
