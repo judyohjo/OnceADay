@@ -190,13 +190,8 @@ td > span {
         			</td>
         		</tr>
         		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>1995년 9월 27일(25세)</span><br>
-        				<span>서울특별시 금천구 시흥동</span>
-        			</td>
+        			
+        			
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
