@@ -229,7 +229,7 @@ td > span {
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">미야와키 사쿠라(Miyawaki Sakura)</h4>
+        <h4 class="modal-title">Diary 2</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
@@ -260,8 +260,8 @@ td > span {
     </div>
    </div>
 
-  <!-- Modal Kang Hye-won -->
-  <div class="modal fade" id="KangHyeWon">
+  <!-- Modal Diary 3 -->
+  <div class="modal fade" id="diary3">
   <div class="modal-dialog">
     <div class="modal-content">
 
