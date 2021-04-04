@@ -341,7 +341,7 @@ td > span {
     </div>
    </div>
 	
-  <!-- Modal Choi Ye-na -->
+  <!-- Modal Diary 4 -->
   <div class="modal fade" id="ChoiYeNa">
   <div class="modal-dialog">
     <div class="modal-content">
