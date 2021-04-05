@@ -267,7 +267,7 @@ td > span {
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">강혜원 (Kang Hye Won)</h4>
+        <h4 class="modal-title">Diary 3</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
@@ -276,13 +276,10 @@ td > span {
         <div class="table-center">
         	<table class="intro-table">
         		<tr class="intro-tr">
-        			<td colspan="2">
-        				<img class="img-fluid" src="../static/img/introduce/hyewon_modal.jpg" alt="" width="100%">
-        			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Name:</span></strong>
         			</td>
         			<td style="text-align:left;">
         				<span>강혜원 (Kang Hye Won, 姜惠元, カン・へウォン)</span>
