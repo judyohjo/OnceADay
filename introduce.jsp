@@ -244,7 +244,7 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">Name</span></strong>
+        				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			
         		
@@ -279,10 +279,10 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">Name:</span></strong>
+        				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>강혜원 (Kang Hye Won, 姜惠元, カン・へウォン)</span>
+        				<span>Day 3</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
