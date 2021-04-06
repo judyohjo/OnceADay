@@ -239,14 +239,37 @@ td > span {
         	<table class="intro-table">
         		<tr class="intro-tr">
         			<td colspan="2">
-        				<img class="img-fluid" src="../static/img/introduce/sakura_modal.jpg" alt="" width="100%">
+        				
         			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">Title</span></strong>
+        				<strong><span style="color: white;">Title </span></strong>
         			</td>
+        			<td style="text-align:left;">
+        				<span>Day 2</span>
+        			</td>
+        		</tr>
+        		<tr class="intro-tr">
         			
+        			
+        		</tr>
+        		<tr class="intro-tr">
+        			<td style="background-color:#23C293; width:100px; text-align:center;">
+        				<strong><span style="color: white;">Date</span></strong>
+        			</td>
+        			<td style="text-align:left;">
+        				<span>05/04/2021</span>
+        			</td>
+        		</tr>
+        		<tr class="intro-tr">
+        			<td style="background-color:#23C293; width:100px; text-align:center;">
+        				<strong><span style="color: white;">Content</span></strong>
+        			</td>
+        			<td style="text-align:left;">
+        				<span>Today...</span>
+        			</td>
+        		</tr>
         		
         	</table>
         </div>
@@ -259,7 +282,6 @@ td > span {
      </div>
     </div>
    </div>
-
   <!-- Modal Diary 3 -->
   <div class="modal fade" id="diary3">
   <div class="modal-dialog">
