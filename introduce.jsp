@@ -440,8 +440,8 @@ td > span {
     </div>
    </div>
    
-   <!-- Modal Lee Chae-Yeon -->
-  <div class="modal fade" id="LeeChaeYeon">
+   <!-- Modal Diary 5 -->
+  <div class="modal fade" id="diary5">
   <div class="modal-dialog">
     <div class="modal-content">
 
