@@ -381,10 +381,10 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Number:</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>최예나 (Choi Ye Na, 崔叡娜, チェ・イェナ)</span>
+        				<span>Diary 4</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
