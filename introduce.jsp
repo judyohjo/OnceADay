@@ -447,7 +447,7 @@ td > span {
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">이채연 (Lee Chae Yeon)</h4>
+        <h4 class="modal-title"> Diary 5</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
