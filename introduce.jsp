@@ -521,8 +521,8 @@ td > span {
     </div>
    </div>
    
-   <!-- Modal Kim Chae-Won -->
-  <div class="modal fade" id="KimChaeWon">
+   <!-- Modal Diary 6 -->
+  <div class="modal fade" id="diary6">
   <div class="modal-dialog">
     <div class="modal-content">
 
