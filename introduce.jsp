@@ -381,10 +381,10 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">Number:</span></strong>
+        				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>Diary 4</span>
+        				<span>Day 4</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
