@@ -528,7 +528,7 @@ td > span {
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">김채원 (Kim Chae-Won)</h4>
+        <h4 class="modal-title">Diary 6</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
@@ -537,16 +537,14 @@ td > span {
         <div class="table-center">
         	<table class="intro-table">
         		<tr class="intro-tr">
-        			<td colspan="2">
-        				<img class="img-fluid" src="../static/img/introduce/chaewon_modal.jpg" alt="" width="100%">
-        			</td>
+        			
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>김채원 (Kim Chae-Won, 金采源, キム・チェウォン)</span>
+        				<span>Day 6</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
