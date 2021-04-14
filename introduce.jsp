@@ -316,7 +316,7 @@ td > span {
         				<strong><span style="color: white;">Date</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>05/04/2021</span>
+        				<span>06/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
@@ -355,9 +355,7 @@ td > span {
         <div class="table-center">
         	<table class="intro-table">
         		<tr class="intro-tr">
-        			<td colspan="2">
-        				<img class="img-fluid" src="../static/img/introduce/yena_modal.jpg" alt="" width="100%">
-        			</td>
+        			
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
@@ -376,7 +374,7 @@ td > span {
         				<strong><span style="color: white;">Date</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>06/04/2021</span>
+        				<span>07/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
@@ -416,66 +414,44 @@ td > span {
         <div class="table-center">
         	<table class="intro-table">
         		<tr class="intro-tr">
-        			<td colspan="2">
-        				<img class="img-fluid" src="../static/img/introduce/chaeyeon_modal.jpg" alt="" width="100%">
+        			
+        		</tr>
+        		<tr class="intro-tr">
+        			<td style="background-color:#23C293; width:100px; text-align:center;">
+        				<strong><span style="color: white;">Title</span></strong>
+        			</td>
+        			<td style="text-align:left;">
+        				<span>Day 5</span>
+        			</td>
+        		</tr>
+        		<tr class="intro-tr">
+        			
+        			
+        		</tr>
+        		<tr class="intro-tr">
+        			<td style="background-color:#23C293; width:100px; text-align:center;">
+        				<strong><span style="color: white;">Date</span></strong>
+        			</td>
+        			<td style="text-align:left;">
+        				<span>08/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Content</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>이채연 (Lee Chae Yeon, 李彩讌, イ・チェヨン)</span>
+        				<span>Today...</span>
         			</td>
         		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2000년 1월 11일 (19세)</span><br>
-        				<span>경기도 용인시 기흥구 서천동</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">국적</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>대한민국</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">소속사</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>WM엔터테인먼트</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">포지션</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>리드보컬, 메인댄서</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">데뷔</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2018년 IZ*ONE 미니 앨범 1집 &lt;COLOR*IZ&gt;</span>
-        			</td>
-        		</tr>
+        		
         	</table>
         </div>
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
      </div>
     </div>
