@@ -308,53 +308,33 @@ td > span {
         			</td>
         		</tr>
         		<tr class="intro-tr">
+        			
+        			
+        		</tr>
+        		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
+        				<strong><span style="color: white;">Date</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>1999년 7월 5일 (19세)</span><br>
-        				<span>경상남도 양산시</span>
+        				<span>05/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">국적</span></strong>
+        				<strong><span style="color: white;">Content</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>대한민국</span>
+        				<span>Today...</span>
         			</td>
         		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">소속사</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>에잇디 크리에이티브</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">포지션</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>리드래퍼, 서브보컬</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">데뷔</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2018년 IZ*ONE 미니 앨범 1집 &lt;COLOR*IZ&gt;</span>
-        			</td>
-        		</tr>
+        		
         	</table>
         </div>
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
      </div>
     </div>
@@ -388,53 +368,33 @@ td > span {
         			</td>
         		</tr>
         		<tr class="intro-tr">
+        			
+        			
+        		</tr>
+        		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
+        				<strong><span style="color: white;">Date</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>1999년 9월 29일 (19세)</span><br>
-        				<span>서울특별시 강동구 길동</span>
+        				<span>06/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">국적</span></strong>
+        				<strong><span style="color: white;">Content</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>대한민국</span>
+        				<span>Today...</span>
         			</td>
         		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">소속사</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>위에화엔터테인먼트</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">포지션</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>메인래퍼, 리드보컬, 리드댄서</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">데뷔</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2018년 IZ*ONE 미니 앨범 1집 &lt;COLOR*IZ&gt;</span>
-        			</td>
-        		</tr>
+        		
         	</table>
         </div>
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
      </div>
     </div>
