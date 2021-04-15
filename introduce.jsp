@@ -536,14 +536,14 @@ td > span {
     </div>
    </div>
    
-   <!-- Modal Kim Min-ju -->
-  <div class="modal fade" id="KimMinJu">
+   <!-- Modal Diary 7 -->
+  <div class="modal fade" id="diary7">
   <div class="modal-dialog">
     <div class="modal-content">
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">김민주 (Kim Min Ju)</h4>
+        <h4 class="modal-title"> Diary 7</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
