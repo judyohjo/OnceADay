@@ -615,14 +615,14 @@ td > span {
     </div>
    </div>
    
-   <!-- Modal Nako -->
+   <!-- Modal Diary 8 -->
   <div class="modal fade" id="nako">
   <div class="modal-dialog">
     <div class="modal-content">
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">야부키 나코(Yabuki Nako)</h4>
+        <h4 class="modal-title">Diary 8</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
