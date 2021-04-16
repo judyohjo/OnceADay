@@ -552,16 +552,14 @@ td > span {
         <div class="table-center">
         	<table class="intro-table">
         		<tr class="intro-tr">
-        			<td colspan="2">
-        				<img class="img-fluid" src="../static/img/introduce/minju_modal.jpg" alt="" width="100%">
-        			</td>
+        	
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>김민주 (Kim Min Ju, 金珉周, キム・ミンジュ)</span>
+        				<span>Day 7</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
