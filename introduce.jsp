@@ -694,14 +694,14 @@ td > span {
     </div>
    </div>
    
-   <!-- Modal Hitomi -->
+   <!-- Modal Diary 9 -->
   <div class="modal fade" id="hitomi">
   <div class="modal-dialog">
     <div class="modal-content">
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">혼다 히토미(Honda Hitomi)</h4>
+        <h4 class="modal-title">Diary 9</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
