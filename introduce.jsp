@@ -635,10 +635,10 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span><ruby><rb>矢吹</rb><rt>やぶき</rt></ruby><ruby>&nbsp;<rb>奈子</rb><rt>なこ</rt></ruby> (야부키 나코, Yabuki Nako)</span>
+        				<span>Day 8</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
