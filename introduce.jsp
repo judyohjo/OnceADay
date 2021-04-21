@@ -795,10 +795,10 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>조유리 (Jo Yu Ri, 曺柔理, チョ・ユリ)</span>
+        				<span>Day 10</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
