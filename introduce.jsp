@@ -871,7 +871,7 @@ td > span {
         	<table class="intro-table">
         		<tr class="intro-tr">
         			<td colspan="2">
-        				<img class="img-fluid" src="../static/img/introduce/yujin_modal.jpg" alt="" width="100%">
+        				
         			</td>
         		</tr>
         		<tr class="intro-tr">
