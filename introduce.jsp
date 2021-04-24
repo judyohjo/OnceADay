@@ -855,7 +855,7 @@ td > span {
    </div>
    
    <!-- Modal Diary 11 -->
-  <div class="modal fade" id="AhnYuJin">
+  <div class="modal fade" id="diary11">
   <div class="modal-dialog">
     <div class="modal-content">
 
