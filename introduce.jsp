@@ -874,10 +874,10 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>안유진 (An Yu Jin, 安兪眞, アン・ユジン)</span>
+        				<span>Day 11</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
