@@ -933,7 +933,7 @@ td > span {
     </div>
    </div>
    
-   <!-- Modal Won-Young -->
+   <!-- Modal Diary 12 -->
   <div class="modal fade" id="JangWonYoung">
   <div class="modal-dialog">
     <div class="modal-content">
