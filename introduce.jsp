@@ -934,13 +934,13 @@ td > span {
    </div>
    
    <!-- Modal Diary 12 -->
-  <div class="modal fade" id="JangWonYoung">
+  <div class="modal fade" id="diary12">
   <div class="modal-dialog">
     <div class="modal-content">
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">장원영 (Jang Won Young)</h4>
+        <h4 class="modal-title">Diary 12</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
