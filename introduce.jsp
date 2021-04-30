@@ -480,50 +480,30 @@ td > span {
         				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>Day 6</span>
+        				<span>Day 4</span>
+        			</td>
+        		</tr>
+        		<tr class="intro-tr">
+        			
+        			
+        		</tr>
+        		<tr class="intro-tr">
+        			<td style="background-color:#23C293; width:100px; text-align:center;">
+        				<strong><span style="color: white;">Date</span></strong>
+        			</td>
+        			<td style="text-align:left;">
+        				<span>09/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
+        				<strong><span style="color: white;">Content</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>2000년 8월 1일 (18세)</span><br>
-        				<span>서울특별시 강남구 개포동</span>
+        				<span>Today...</span>
         			</td>
         		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">국적</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>대한민국</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">소속사</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>울림엔터테인먼트</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">포지션</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>리드보컬</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">데뷔</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2018년 IZ*ONE 미니 앨범 1집 &lt;COLOR*IZ&gt;</span>
-        			</td>
-        		</tr>
+        		
         	</table>
         </div>
       </div>
