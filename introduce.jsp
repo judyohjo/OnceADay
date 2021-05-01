@@ -183,7 +183,7 @@ td > span {
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">Title </span></strong>
+        				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
         				<span>Day 1</span>
