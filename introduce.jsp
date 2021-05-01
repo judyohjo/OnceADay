@@ -598,57 +598,37 @@ td > span {
         				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>Day 8</span>
+        				<span>Day 4</span>
+        			</td>
+        		</tr>
+        		<tr class="intro-tr">
+        			
+        			
+        		</tr>
+        		<tr class="intro-tr">
+        			<td style="background-color:#23C293; width:100px; text-align:center;">
+        				<strong><span style="color: white;">Date</span></strong>
+        			</td>
+        			<td style="text-align:left;">
+        				<span>11/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
+        				<strong><span style="color: white;">Content</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>2001년 6월 18일(17세)</span><br>
-        				<span>일본 도쿄도</span>
+        				<span>Today...</span>
         			</td>
         		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">국적</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>일본</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">소속사</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>AKS</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">포지션</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>서브보컬</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">데뷔</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2013년 HKT48 연구생 공연 &lt;뇌내 파라다이스&gt;</span>
-        			</td>
-        		</tr>
+        		
         	</table>
         </div>
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
      </div>
     </div>
