@@ -480,7 +480,7 @@ td > span {
         				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>Day 4</span>
+        				<span>Day 6</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
