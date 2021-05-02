@@ -539,7 +539,7 @@ td > span {
         				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>Day 4</span>
+        				<span>Day 7</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
@@ -598,7 +598,7 @@ td > span {
         				<strong><span style="color: white;">Title</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>Day 4</span>
+        				<span>Day 8</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
