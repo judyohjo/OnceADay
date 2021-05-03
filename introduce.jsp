@@ -635,7 +635,7 @@ td > span {
    </div>
    
    <!-- Modal Diary 9 -->
-  <div class="modal fade" id="hitomi">
+  <div class="modal fade" id="diary9">
   <div class="modal-dialog">
     <div class="modal-content">
 
@@ -645,7 +645,7 @@ td > span {
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
-      <!-- Modal body -->
+            <!-- Modal body -->
       <div class="modal-body">
         <div class="table-center">
         	<table class="intro-table">
@@ -661,53 +661,33 @@ td > span {
         			</td>
         		</tr>
         		<tr class="intro-tr">
+        			
+        			
+        		</tr>
+        		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
+        				<strong><span style="color: white;">Date</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>2001년 10월 6일 (17세)</span><br>
-        				<span>일본 도치기현</span>
+        				<span>12/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">국적</span></strong>
+        				<strong><span style="color: white;">Content</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>일본</span>
+        				<span>Today...</span>
         			</td>
         		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">소속사</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>AKS</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">포지션</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>서브보컬</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">데뷔</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2014년 AKB48 팀 8 공연 &lt;PARTY가 시작돼요&gt;</span>
-        			</td>
-        		</tr>
+        		
         	</table>
         </div>
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
      </div>
     </div>
