@@ -704,7 +704,7 @@ td > span {
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
-      <!-- Modal body -->
+            <!-- Modal body -->
       <div class="modal-body">
         <div class="table-center">
         	<table class="intro-table">
@@ -720,53 +720,33 @@ td > span {
         			</td>
         		</tr>
         		<tr class="intro-tr">
+        			
+        			
+        		</tr>
+        		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
+        				<strong><span style="color: white;">Date</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>2001년 10월 22일 (17세)</span><br>
-        				<span>부산광역시 남구 대연동</span>
+        				<span>13/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">국적</span></strong>
+        				<strong><span style="color: white;">Content</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>대한민국</span>
+        				<span>Today...</span>
         			</td>
         		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">소속사</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>스톤뮤직엔터테인먼트</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">포지션</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>메인보컬</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">데뷔</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2018년 IZ*ONE 미니 앨범 1집 &lt;COLOR*IZ&gt;</span>
-        			</td>
-        		</tr>
+        		
         	</table>
         </div>
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">닫기</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
       </div>
      </div>
     </div>
