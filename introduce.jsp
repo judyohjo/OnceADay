@@ -822,64 +822,42 @@ td > span {
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
-      <!-- Modal body -->
+            <!-- Modal body -->
       <div class="modal-body">
         <div class="table-center">
         	<table class="intro-table">
         		<tr class="intro-tr">
-        			<td colspan="2">
-        				<img class="img-fluid" src="../static/img/introduce/wonyoung_modal.jpg" alt="" width="100%">
+        			
+        		</tr>
+        		<tr class="intro-tr">
+        			<td style="background-color:#23C293; width:100px; text-align:center;">
+        				<strong><span style="color: white;">Title</span></strong>
+        			</td>
+        			<td style="text-align:left;">
+        				<span>Day 12</span>
+        			</td>
+        		</tr>
+        		<tr class="intro-tr">
+        			
+        			
+        		</tr>
+        		<tr class="intro-tr">
+        			<td style="background-color:#23C293; width:100px; text-align:center;">
+        				<strong><span style="color: white;">Date</span></strong>
+        			</td>
+        			<td style="text-align:left;">
+        				<span>15/04/2021</span>
         			</td>
         		</tr>
         		<tr class="intro-tr">
         			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">이름</span></strong>
+        				<strong><span style="color: white;">Content</span></strong>
         			</td>
         			<td style="text-align:left;">
-        				<span>장원영 (Jang Won Young, 張員瑛, チャン・ウォニョン)</span>
+        				<span>Today...</span>
         			</td>
         		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">출생</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2004년 8월 31일 (14세)</span><br>
-        				<span>서울특별시 용산구 이촌1동</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">국적</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>대한민국</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">소속사</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>스타쉽엔터테인먼트</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">포지션</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>센터, 서브보컬</span>
-        			</td>
-        		</tr>
-        		<tr class="intro-tr">
-        			<td style="background-color:#23C293; width:100px; text-align:center;">
-        				<strong><span style="color: white;">데뷔</span></strong>
-        			</td>
-        			<td style="text-align:left;">
-        				<span>2018년 IZ*ONE 미니 앨범 1집 &lt;COLOR*IZ&gt;</span>
-        			</td>
-        		</tr>
+        		
         	</table>
         </div>
       </div>
